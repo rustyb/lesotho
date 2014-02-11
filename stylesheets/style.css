@@ -1,0 +1,89 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/* Typography */
+
+input {
+    font: 14px/20px 'OpenSans', sans-serif;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    }
+
+
+h1 {
+    font-family: 'OswaldBook', "Arial Narrow", sans-serif;
+    line-height: 1em;
+    font-size: 2em;
+    }
+	h2 {
+	    font-family: 'OswaldBook', "Arial Narrow", sans-serif;
+	    line-height: 1em;
+	    font-size: 1.5em;
+		padding-top:10px;
+	    }
+a {
+    color:#369;
+    text-decoration:none;
+    }
+
+
+
+.map {
+    height: 100%;
+    width: 100%;
+	min-height:600px;
+    z-index: 0;
+    }
+.map_container {padding-bottom:2em;}
+#branding {
+    height: 105px;
+    width: 100px;
+    background: url(../img/img-unl.png) 30px 30px no-repeat;
+    }
+
+.header_map {
+    background: rgb(255,255,255); /* old ie */
+    background: rgba(255,255,255,.9);
+    border-bottom: 1px solid #ccc;
+    border-top: 5px solid #333;
+    overflow-y: hidden;
+    z-index: 2;
+    }
+    
+#about {
+    padding: 0 20px;
+    border-left: 1px solid #bbb;
+    }
+
+.layers {
+    position: absolute;
+    width: 120px;
+    left: 10px;
+    top: 80px;
+    }
+    
+.layers a {
+    padding: 10px;
+    margin: 1px 0;
+    border-left: 5px solid #fff;
+    background: white;
+    color: #333;
+    }
+    
+.layers a:hover, .layers a:focus, .layers a.active {
+    border-left: 5px solid #333;
+    background: #2da0ef;
+    color: white;
+    }
+    
+.layers a {
+	font: 1em/1.5em 'OswaldBook',  "Arial Narrow", sans-serif;
+    width: 113px;
+    float: left;
+    margin-right: 20px;
+    }
+
+
