@@ -1117,8 +1117,8 @@
         "name": "Day 2 - Route",
         "marker-symbol": "",
         "marker-color": "",
-        "stroke": "",
-        "stroke-width": "",
+        "stroke": "#B5D378",
+        "stroke-width": 10,
         "fill": ""
       },
       "geometry": {
