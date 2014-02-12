@@ -198,8 +198,7 @@
       "properties": {
         "name": "Route to School - 3",
         "stroke": "#B5D378",
-        "stroke-width": 10
-      },
+        "stroke-width": 10      },
       "geometry": {
         "type": "LineString",
         "coordinates": [

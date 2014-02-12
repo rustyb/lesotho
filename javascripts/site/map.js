@@ -8,11 +8,12 @@
 	    dataType: 'json',
 	    success: function load(d) {
 	        var states = L.geoJson(d, {
+				style: function(feature) { return feature.properties; return {"color": feature.properties.stroke}; },
 			    onEachFeature: function (feature, layer) {
 			        layer.bindPopup(feature.properties.name);
 			    },
 				pointToLayer: L.mapbox.marker.style,
-				    style: function(feature) { return feature.properties; }
+				    style: function(feature) { return feature.properties; }				
 			}).addTo(map);
 	    }
 	});
