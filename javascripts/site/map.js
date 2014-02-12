@@ -10,7 +10,9 @@
 	        var states = L.geoJson(d, {
 			    onEachFeature: function (feature, layer) {
 			        layer.bindPopup(feature.properties.name);
-			    }
+			    },
+				pointToLayer: L.mapbox.marker.style,
+				    style: function(feature) { return feature.properties; }
 			}).addTo(map);
 	    }
 	});
