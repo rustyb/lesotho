@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Maseru Sun Hotel",
-        "marker-symbol": "lodging",
+        "marker-symbolda": "lodging",
         "marker-color": "#B5D378"
       },
       "geometry": {
@@ -1115,11 +1115,8 @@
       "type": "Feature",
       "properties": {
         "name": "Day 2 - Route",
-        "marker-symbol": "",
-        "marker-color": "",
-        "stroke": "",
-        "stroke-width": "",
-        "fill": ""
+        "stroke": "#B5D378",
+        "stroke-width": 10
       },
       "geometry": {
         "type": "LineString",
