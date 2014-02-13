@@ -15,4 +15,4 @@ Today we did a recce of the Ha Foso area ahead of commencing our CPDs on Wednesd
 
 Plenty of photos to follow.
 
-{% include ciaran.html %}
+{% include joe.html %}
