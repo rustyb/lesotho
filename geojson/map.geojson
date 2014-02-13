@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Maseru Sun Hotel",
-        "marker-symbolda": "lodging",
+        "marker-symbol": "lodging",
         "marker-color": "#B5D378"
       },
       "geometry": {
@@ -1365,11 +1365,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "site boundary",
-        "descriptio": null,
-        "area": 187207,
-        "name": "Ha-Foso - Survey Boundary",
-        "marker-symbol": ""
+        "name": "Ha-Foso - Survey Boundary"
       },
       "geometry": {
         "type": "Polygon",
@@ -1471,8 +1467,7 @@
       "type": "Feature",
       "properties": {
         "name": "Group 1 - Area",
-        "fill": "#B5D378"
-
+        "fill": "#99d8c9"
       },
       "geometry": {
         "type": "Polygon",
@@ -1562,7 +1557,7 @@
       "type": "Feature",
       "properties": {
         "name": "Group 2 - Area",
-        "fill": "#B5D378"
+        "fill": "#2ca25f"
       },
       "geometry": {
         "type": "Polygon",
@@ -1644,7 +1639,7 @@
       "type": "Feature",
       "properties": {
         "name": "Group 3 - Area",
-        "fill": "#B5D378"
+        "fill": "#feb24c"
       },
       "geometry": {
         "type": "Polygon",
