@@ -1,0 +1,44 @@
+{% include html_head.html %}
+
+<div class="row header_map">
+		<div class="large-2 columns">
+			<div id='branding'>
+				
+			</div>
+		</div>
+		<div class="large-10 columns">
+			<div id="about">
+				<h1>{{page.title}}</h1>
+		        <div>
+		        	{{content}}
+		        </div>					
+			</div>
+		</div>
+</div>
+<div class="row header_map" style="padding-top:20px;">
+
+		<div class="large-12 columns">
+			<div class="large-6 columns">
+					<a  class="button medium" href="{{site.baseurl}}/map">&larr; To the Map</a>
+					
+			</div>
+			<div class="large-6 columns">
+				<div id="about">
+					<ul class="no-bullet posts">
+					    {% for post in site.posts %}
+					      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+					    {% endfor %}
+					  </ul>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+
+{% include html_end.html %}
+
+
+

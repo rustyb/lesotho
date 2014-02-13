@@ -12,8 +12,7 @@ permalink: map
 		<div class="large-10 columns">
 			<div id="about">
 				<h1>Our most recent Activity in Lesotho</h1>
-				<a class="button medium" href="{{site.baseurl}}/">&larr; Blog Posts</a>
-		        <p>Joe will update this with some bumf later.</p>					
+				<p>The Fingal team are providing training to the Physical Planning department of Lesotho on how to leverage Open Street Map and open data for the purposes of land use planning. This map is a geographic blog of our travels throughout Lesotho.</p>				
 			</div>
 		</div>
 	</div>
@@ -25,5 +24,26 @@ permalink: map
 		
 		</div>
 		
+</div>
+
+<div class="row header_map" style="padding-top:20px;">
+
+		<div class="large-12 columns">
+			<div class="large-6 columns">
+					<a  class="button medium" href="{{site.baseurl}}">&larr; Home</a>
+					
+			</div>
+			<div class="large-6 columns">
+				<div id="about">
+					<ul class="no-bullet posts">
+					    {% for post in site.posts %}
+					      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+					    {% endfor %}
+					  </ul>
+				</div>
+				
+			</div>
+		</div>
 	</div>
-			    <script src="{{site.baseurl}}/javascripts/site/map.js"></script>
+</div>
+<script src="{{site.baseurl}}/javascripts/site/map.js"></script>

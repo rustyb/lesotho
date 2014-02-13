@@ -7,14 +7,19 @@
   	<meta name="viewport" content="width=device-width" />
 
   	<title>{% if page.layout == "map" %}{{page.title}}{% else %} UNL Campus Map{% endif %}</title>
+	{% if page.layout == "map" %}
+	 {% include map_head.html %}
+	{% endif %}
 	<link rel="stylesheet" href="{{site.baseurl}}/stylesheets/app.css">
 
 	
 	<script src="{{site.baseurl}}/javascripts/vendor/custom.modernizr.js"></script>
 
 
-{% if page.layout == "map" %}
- {% include map_head.html %}
-{% endif %}
 </head>
 <body>
+	<div class="row">
+		<h1><img src="{{site.baseurl}}/img/lesotho.png" width="100px"/>
+		<img src="{{site.baseurl}}/img/fingal.png" width="250px"/></h1>
+	</div>
+	
