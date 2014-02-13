@@ -1,13 +1,25 @@
 ---
-layout: default
-title: Your New Jekyll Site
+layout: post1
+title: Fingal Team in Lesotho
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
+  <ul class="no-bullet posts">
+	<li>
+		<div class="row header_map">
+				<div class="large-2 columns">
+					<div id='branding'></div>
+				</div>
+				<div class="large-10 columns">
+					<div id="about">
+						<h1><a href="{{site.baseurl}}/map">Lesotho Activity Map</a></h1>
+						<p>The Fingal team are providing training to the Physical Planning department of Lesotho on how to leverage Open Street Map and open data for the purposes of land use planning. This map is a geographic blog of our travels throughout Lesotho.</p>				
+					</div>
+				</div>
+			</div>
+	</li>
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+      <li><h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2><span>{{ post.date | date_to_string }}</span> &raquo; <p>{{ post.excerpt }}</p></li>
     {% endfor %}
   </ul>
 </div>
