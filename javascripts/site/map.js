@@ -1,6 +1,7 @@
 
 	var map = L.mapbox.map('map', 'examples.map-h67hf2ic')
-	  .setView([-29.3175,27.4739], 11);
+	  .setView([
+        -29.316525709054982,27.47320175170898], 11);
 
 
 	$.ajax({
