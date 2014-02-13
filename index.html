@@ -6,20 +6,27 @@ title: Fingal Team in Lesotho
 <div id="home">
   <ul class="no-bullet posts">
 	<li>
-		<div class="row header_map">
-				<div class="large-2 columns">
-					<div id='branding'></div>
+				<div style="height:200px; overflow:hidden;">
+					<div id='map-ui'></div>
+				    <div id="map" data-map="map" class="map"></div>
 				</div>
-				<div class="large-10 columns">
-					<div id="about">
-						<h1><a href="{{site.baseurl}}/map">Lesotho Activity Map</a></h1>
-						<p>The Fingal team are providing training to the Physical Planning department of Lesotho on how to leverage Open Street Map and open data for the purposes of land use planning. This map is a geographic blog of our travels throughout Lesotho.</p>				
-					</div>
-				</div>
-			</div>
+						<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" id="jquery"></script>
+					  
+						<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
+						<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
+				
+						<div>
+							<h1><a href="{{site.baseurl}}/map">Lesotho Activity Map &rarr;</a></h1>
+							<p>The Fingal team are providing training to the Physical Planning department of Lesotho on how to leverage Open Street Map and open data for the purposes of land use planning. This map is a geographic blog of our travels throughout Lesotho.</p>				
+						</div>
 	</li>
-    {% for post in site.posts %}
-      <li><h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2><span>{{ post.date | date_to_string }}</span> &raquo; <p>{{ post.excerpt }}</p></li>
-    {% endfor %}
+	
+	<div style="border-top:5px #000 solid; padding-top:20px;">
+		{% for post in site.posts %}
+	      <li><h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2><span>{{ post.date | date_to_string }}</span> &raquo; {{post.author}}<p>{{ post.excerpt }}</p></li>
+	    {% endfor %}
+	</div>
+    
   </ul>
 </div>
+<script src="{{site.baseurl}}/javascripts/site/map.js"></script>

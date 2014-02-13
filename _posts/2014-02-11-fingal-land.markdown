@@ -1,6 +1,7 @@
 ---
 title: "Fingal Team Land in Lesotho"
 layout: post1
+author: "Joseph Corr"
 ---
 
 We set off from Dublin Airport on Saturday morning 8th of February and flew into London Heathrow, then we took a South African Airlines flight to Johannesburg (O.R. Tambo) and then almost 24 hours later we arrived at Moshoeshoe airport in Lesotho. We were greeted at the airport by our colleagues from the Fingal based charity group, Action Ireland Trust (AIT). We got a great welcome from the AIT guys and they swept us all off to our hotel where we will base ourselves for the next two weeks.
