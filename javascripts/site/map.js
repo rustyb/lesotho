@@ -4,7 +4,7 @@
 
 
 	$.ajax({
-	    url: '/geojson/map.geojson',
+	    url: '../geojson/map.geojson',
 	    dataType: 'json',
 	    success: function load(d) {
 	        var states = L.geoJson(d, {
