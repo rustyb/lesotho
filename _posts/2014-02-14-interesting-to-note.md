@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Interesting things to note from Lesotho
 layout: post1
 ---
