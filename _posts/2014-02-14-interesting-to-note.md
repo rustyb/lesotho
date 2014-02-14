@@ -1,8 +1,8 @@
 ---
 published: true
-title: Interesting things to note from Lesotho
+title: Similarities to note from Lesotho
 layout: post1
-author: ciaran
+author: Ciaran
 ---
 
 On Monday the Chief Planner of Lesotho asked if we would look at the issues caused by the sudden, and in some cases unplanned, building out of part of the Berea district call Ho Fuso. When the team started analysing the population data it seemed like Berea was very familiar. Here's why:
