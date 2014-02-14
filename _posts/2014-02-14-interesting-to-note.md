@@ -12,7 +12,7 @@ On Monday the Chief Planner of Lesotho asked if we would look at the issues caus
 - Residents of Berea district are affluent and economically mobile as they commute to Maseru to work
 - Berea has seen a rapid population increase exceeding 20% in a five year period
  
-![](/{{site.baseurl}}/img/berea.jpg)
+![]({{site.baseurl}}/img/berea.jpg)
 
 Almost all of these things could be said of Fingal. However, here's what's different:
  
