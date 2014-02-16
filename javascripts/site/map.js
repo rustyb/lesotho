@@ -1,11 +1,10 @@
-
 	var map = L.mapbox.map('map', 'examples.map-h67hf2ic')
 	  .setView([
         -29.316525709054982,27.47320175170898], 11);
 
 
 	$.ajax({
-	    url: '/geojson/map.geojson',
+	    url: '../geojson/map.geojson',
 	    dataType: 'json',
 	    success: function load(d) {
 	        var states = L.geoJson(d, {
