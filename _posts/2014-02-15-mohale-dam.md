@@ -14,7 +14,7 @@ The dimension of learning, [apart from the lovely drive up and down to a height 
 Back to the Dam. It certainly is an impressive structure, standing 145m tall and 620m across the valley through which the Senqunye River. It is constructed mainly from compacted rock and not from cast concrete. We received an orientation talk from the Highlands Development Authority on the history of the project at their visitor centre.
 
 <ul class="clearing-thumbs" data-clearing>
-  <li><a href="http://upload.wikimedia.org/wikipedia/commons/5/51/LHWP_map_resized.jpg"><img src="http://upload.wikimedia.org/wikipedia/commons/5/51/LHWP_map_resized.jpg"></a></li>
+  <li><a href="http://upload.wikimedia.org/wikipedia/commons/5/51/LHWP_map_resized.jpg"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LHWP_map_resized.jpg/170px-LHWP_map_resized.jpg"></a></li>
 </ul>
 
 {% include ciaran.html %}
