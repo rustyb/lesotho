@@ -5,7 +5,7 @@ var map = L.mapbox.map('map', 'examples.map-h67hf2ic')
 
 
 $.ajax({
-    url: '../geojson/map.geojson',
+    url: 'geojson/map.geojson',
     dataType: 'json',
     success: function load(d) {
         var states = L.geoJson(d, {
