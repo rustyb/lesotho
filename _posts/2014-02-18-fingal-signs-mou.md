@@ -15,7 +15,11 @@ It will strengthen and deepen the relationship between Ireland and Lesotho with 
 
 The memorandum was signed before members of the local press and representatives of Action Ireland Trust by Stephen Peppard, Head of Corporate Affairs and Information Technology, Fingal County Council and Right Honorable Mothetjoa Metsing, Deputy Prime Minister of Lesotho and Minister of Local Government and of Chieftainship Affairs.
 
+<hr />
 <ul class="clearing-thumbs" data-clearing>
-  <li><a href="{{site.baseurl}}/img/mou/mou_sign1.jpg"><img data-caption="Stephen Peppard, Head of Corporate Affairs and Information Technology, Fingal County Council and Right Honorable Mothetjoa Metsing, Deputy Prime Minister of Lesotho and Minister of Local Government and of Chieftainship Affairs sign the MOU." src="{{site.baseurl}}/img/mou/mou_sign1_t.jpg"></a></li>
-  <li><a href="{{site.baseurl}}/img/mou/mou_sign2.jpg"><img data-caption="" src="{{site.baseurl}}/img/mou/mou_sign2_t.jpg"></a></li>
+  <li><a href="{{site.baseurl}}/img/dpm/mou_sign1.jpg"><img data-caption="Stephen Peppard, Head of Corporate Affairs and Information Technology, Fingal County Council and Right Honorable Mothetjoa Metsing, Deputy Prime Minister of Lesotho and Minister of Local Government and of Chieftainship Affairs sign the MOU." src="{{site.baseurl}}/img/dpm/th/mou_sign1_t.jpg"></a></li>
+  <li><a href="{{site.baseurl}}/img/dpm/mou_sign2.jpg"><img data-caption="Stephen Peppard, Head of Corporate Affairs and Information Technology, Fingal County Council and Mrs. Masetori Makhetha, Chief Phyiscal Planner for Lesotho" src="{{site.baseurl}}/img/dpm/th/mou_sign2_t.jpg"></a></li>
+  <li><a href="{{site.baseurl}}/img/dpm/DSC_0369.jpg"><img data-caption="Joseph Corr and Right Honorable Mothetjoa Metsing, Deputy Prime Minister of Lesotho and Minister of Local Government and of Chieftainship Affairs read the Fingal Independent" src="{{site.baseurl}}/img/dpm/th/DSC_0369.jpg"></a></li>
+  
 </ul>
+<hr />
