@@ -5,9 +5,12 @@ layout: post1
 author: Colin
 ---
 
-The Planning GPS strand of the ACtion Ireland Trust Project in Lesotho reached a landmark yesterday. 
+The Planning GPS strand of the ACtion Ireland Trust Project in Lesotho reached a landmark yesterday.
+
+<img src="{{site.baseurl}}/img/dpm/mou_sign1.jpg" />
 
 A memorandum of understanding (MOU) between the Losothian government and Fingal County Council was signed at the Irish Embassy in Maseru.
+
 
 The memorandum of understanding will govern future exchanges of knowledge and expertise in planning.
 
